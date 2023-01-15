@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-entries {
+    display: flex;
+}
+
+.sign-up {
+    display: flex;
+}
+
+footer {
+    display: flex;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
+
