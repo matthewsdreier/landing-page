@@ -67,3 +67,9 @@ img {
     align-self: flex-end;
 }
 
+.sign-up {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
