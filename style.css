@@ -1,24 +1,46 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 header {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header img {
+    width: 40px;
+    height: auto;
+    margin-right: auto;
+}
+
+header a {
+    text-decoration: none;
 }
 
 .hero {
     display: flex;
+    align-items: center;
 }
 
-.info {
-    display: flex;
-    flex-direction: column;
+.info p {
+    text-align: center;
 }
 
 .info-entries {
     display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.info-entries p {
+    width: 200px;
 }
 
 .sign-up {
@@ -32,5 +54,16 @@ footer {
 img {
     height: 200px;
     width: auto;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution {
+    align-self: flex-end;
 }
 
